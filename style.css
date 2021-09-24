@@ -1,0 +1,93 @@
+body{
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%,
+                            rgb(43, 43, 44) 100%,
+                            rgb(28, 29, 28) 100%);
+}
+
+
+
+#page-wrap{
+    width:100%;
+}
+.divContainer{
+    margin-top:5px;
+    top:0px;
+    width: 30%;
+    min-width: 300px;
+    max-width: 25%;
+    outline: 0px solid red;
+    display: inline-block;
+    vertical-align: top;
+    margin-right:5px;
+}
+
+.divContainer > fieldset{
+    font: italic bold 20px/30px Georgia, serif;
+    font-size: large;
+}
+#step1_result{
+    
+    margin-top:10px;
+}
+
+#attendee_container{
+    font-size: small !important;
+    font-family: Verdana, Geneva, Tahoma, sans-serif !important;
+}
+h3{
+    font-weight: bold !important;
+    font-size: large;
+}
+
+#step_1{
+    background-color:#A9EAC5;
+    border: 0;
+}
+
+#page-wrap > h1 > #Title1{
+        color:white;
+        font-family: Helvetica, Arial, Sans-Serif;
+        font-size: 50px;
+        font-weight: bold;
+}
+#page-wrap > h1 > #Title2{
+        color:#428ED0;
+        font-family: Helvetica, Arial, Sans-Serif;
+        font-size: 50px;
+        font-weight: bold;
+}
+#step_2{
+    background-color:#AADBEB;
+    border: 0;
+}
+#step2_result{
+    
+    margin-top:10px;
+}
+
+#step_3{
+    background-color:#ECC6AA;
+    border: 0;
+}
+.legend{
+    background-color: #fff;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-radius: 10px;
+    font-size: x-large; 
+    font-weight: bold;
+    font-family: Helvetica, Arial, Sans-Serif; ;
+}
+div[disabled=disabled] {
+    pointer-events: none;
+    opacity: 0.4;
+}
+#company_name_wrap{
+    font-size: small;
+}
+#special_accommodations_wrap {
+    font-size: small;
+}
